@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#ff5e00</color>
+
+    <color name="skyBlue">#1289E6</color>
+    <color name="decentblue">#FF1289E6</color>
+    <color name="projgreen">#0AEE14</color>
+    <color name="projpink">#D5EC2856</color>
+    <color name="flashgreen">#80F807</color>
+    <color name="green">#339933</color>
+    <color name="voilet">#9900cc</color>
+    <color name="blue">	 #00aaff</color>
+
+
+    <color name="blue_dark">#4e18d9</color>
+    <color name="purple_dark">#8f18d9</color>
+    <color name="colorRed">#D91818</color>
+    <color name="trans1">#212226</color>
+
+    <color name="trans">#ccff0000</color>
+    <color name="colorGrey">#A3A0A0</color>
+</resources>

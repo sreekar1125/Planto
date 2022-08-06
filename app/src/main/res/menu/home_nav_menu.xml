@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/app_name">
+
+        <menu>
+           <group
+               android:checkableBehavior="single">
+               <item
+                   android:id="@+id/menu_home"
+                   android:title="@string/home"
+                   android:checked="true"
+                   android:icon="@raw/home" />
+
+               <item
+                   android:id="@+id/menu_payment"
+                   android:title="@string/payment"
+                   android:checked="false"
+                   android:icon="@raw/payment"/>
+               <item
+                   android:id="@+id/menu_verification"
+                   android:title="@string/verification"
+                   android:checked="false"
+                   android:icon="@raw/verification"/>
+               <item
+                   android:id="@+id/menu_videos"
+                   android:title="@string/awareness"
+                   android:checked="false"
+                   android:icon="@raw/videos"/>
+               <item
+                   android:id="@+id/menu_settings"
+                   android:title="@string/settings"
+                   android:checked="false"
+                   android:icon="@raw/settings"/>
+
+           </group>
+      </menu>
+    </item>
+
+   <item android:title="@string/invite"
+        android:icon="@raw/invite2"
+       android:id="@+id/menu_invite">
+
+    </item>
+
+    <item
+        android:title="@string/sign_out"
+        android:icon="@raw/logout"
+        android:id="@+id/menu_sign_out"/>
+
+
+
+
+</menu>

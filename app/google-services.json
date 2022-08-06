@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "71240084075",
+    "firebase_url": "https://planto-f9bf7.firebaseio.com",
+    "project_id": "planto-f9bf7",
+    "storage_bucket": "planto-f9bf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71240084075:android:1dbaa3489944556ffd5f2e",
+        "android_client_info": {
+          "package_name": "com.dev.planto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71240084075-7tbn3t6cpv2v0c53a647dg8sa98vskco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.planto",
+            "certificate_hash": "313790008e19ace6bfd8d9fafcf24f27b2be2a41"
+          }
+        },
+        {
+          "client_id": "71240084075-q9080q0b8lecjsqma42jsq1b0r6uob2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOThxcochSe6HGkyBrPu6KDnrarB_Uo1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71240084075-q9080q0b8lecjsqma42jsq1b0r6uob2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

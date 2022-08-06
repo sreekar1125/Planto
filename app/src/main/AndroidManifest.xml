@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.dev.planto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4819989435413590~7053699604"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <tools:validation testUrl="https://planto-jointhegreenside.000webhostapp.com/apk/" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="https"
+                    android:host="planto-jointhegreenside.000webhostapp.com"
+                    android:pathPrefix="/apk/" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ForgotPass" android:theme="@style/FullScreen"/>
+        <activity android:name=".user.Home" />
+        <activity android:name=".SignIn"  android:theme="@style/FullScreen"/>
+        <activity android:name=".SignUp" android:theme="@style/FullScreen"/>
+        <activity android:name=".admin.RequestedUser" />
+        <activity android:name=".admin.Requests" />
+        <activity android:name=".user.ShowPassBook" />
+        <activity android:name=".user.LinkPaytm" />
+        <activity android:name=".user.Payments" />
+        <activity android:name=".help.HelpInfo14" />
+        <activity android:name=".help.HelpInfo13" />
+        <activity android:name=".help.HelpInfo12" />
+        <activity android:name=".help.HelpInfo11" />
+        <activity android:name=".help.HelpInfo10" />
+        <activity android:name=".help.HelpInfo9" />
+        <activity android:name=".help.HelpInfo8" />
+        <activity android:name=".help.HelpInfo7" />
+        <activity android:name=".help.HelpInfo6" />
+        <activity android:name=".help.HelpInfo5" />
+        <activity android:name=".help.HelpInfo4" />
+        <activity android:name=".help.HelpInfo3" />
+        <activity android:name=".help.HelpInfo2" />
+        <activity android:name=".help.HelpInfo1" />
+        <activity android:name=".user.ShowDp" />
+        <activity android:name=".user.Profile" />
+        <activity android:name=".user.About"  android:theme="@style/FullScreen"/>
+        <activity android:name=".user.Settings" />
+        <activity android:name=".user.UpdateStatus" />
+        <activity android:name=".help.HelpActivity" />
+        <activity android:name=".user.Verification"/>
+        <activity android:name=".Awareness" />
+        <activity android:name=".admin.AddPost" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+    </application>
+
+</manifest>

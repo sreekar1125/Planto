@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.UpdateStatus"
+    android:background="?android:selectableItemBackground">
+
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/update_stat_tb"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/update_stat_tb"
+        android:padding="10dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/cardv_location"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_update_status_location"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:textColor="@color/colorRed"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                android:src="@raw/location"
+                android:contentDescription="Show on Map" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:padding="3dp"
+        android:keepScreenOn="false"
+        android:id="@+id/id_video"
+        android:visibility="invisible"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <VideoView
+        android:id="@+id/gif_planting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cardv_location"
+        android:layout_above="@id/btn_camera_update_status"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_camera_update_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:layout_alignParentBottom="true"
+        android:text="@string/start_planting"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/raleway_medium"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+</RelativeLayout>

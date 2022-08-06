@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.Settings">
+
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/tool_bar_settings"/>
+    
+    <LinearLayout
+        android:id="@+id/settings_layout_prof"
+        android:layout_below="@id/tool_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10dp">
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sett_dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@raw/profile"
+            android:layout_marginStart="15dp"
+            app:civ_border_width="1dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/raleway_semi_bold"
+                android:layout_gravity="center_vertical" />
+            <TextView
+                android:id="@+id/txt_settings_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:text="@string/user_email"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/settings_layout_lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_layout_prof"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@raw/app_lang"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="3dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_language"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/raleway_semi_bold"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selected_lang"
+                android:textSize="13sp"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/settings_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_layout_lang"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@raw/planto"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="3dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/raleway_semi_bold"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="v1.0"
+                android:textSize="13sp"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adUnitId="@string/BannerAdUnitId"
+        app:adSize="MEDIUM_RECTANGLE"
+        android:layout_below="@id/settings_about"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

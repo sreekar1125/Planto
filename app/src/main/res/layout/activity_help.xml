@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".help.HelpActivity"  >
+
+
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/tool_bar"/>
+
+
+    <TextView
+        android:id="@+id/help_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/queries_faqs"
+        android:layout_below="@id/tool_bar"
+       android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+
+        android:fontFamily="@font/raleway_bold"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_txt1"
+        android:orientation="vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+
+
+        >
+    <TextView
+        android:id="@+id/htxt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/report_plant"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="14sp"
+        android:textColor="#000000"
+      />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linlay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linlay1"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:paddingTop="20dp"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+    <TextView
+        android:id="@+id/htxt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_ac"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="14sp"
+
+        android:textColor="#000000"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linlay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linlay2"
+        android:orientation="vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:focusable="true"
+        android:paddingLeft="20dp">
+        <TextView
+            android:id="@+id/htxt_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/refer_frnds"
+            android:fontFamily="@font/raleway_medium"
+            android:textSize="14sp"
+            android:textColor="#000000"
+          />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linlay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linlay3"
+        android:orientation="vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+        <TextView
+            android:id="@+id/htxt_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/general_issues"
+            android:fontFamily="@font/raleway_medium"
+            android:textSize="14sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linlay5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linlay4"
+        android:orientation="vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+        <TextView
+            android:id="@+id/htxt_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/issue_while_verif"
+            android:fontFamily="@font/raleway_medium"
+            android:textSize="14sp"
+            android:textColor="#000000"
+          />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linlay6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linlay5"
+        android:orientation="vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:focusable="true"
+        android:paddingLeft="20dp">
+        <TextView
+            android:id="@+id/htxt_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/issue_not_mentioned"
+            android:fontFamily="@font/raleway_medium"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

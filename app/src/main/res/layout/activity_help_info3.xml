@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".help.HelpInfo3">
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/tool_bar"/>
+
+
+    <TextView
+        android:id="@+id/help_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage My Planto account"
+        android:layout_below="@id/tool_bar"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+
+        android:fontFamily="@font/raleway_bold"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_txt1"
+        android:orientation="vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+
+
+        >
+    <TextView
+        android:id="@+id/htxt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How do i update my email ID? "
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linlay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linlay1"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:paddingTop="20dp"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:id="@+id/htxt_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How do i deactivate my account?"
+            android:fontFamily="@font/raleway_medium"
+            android:textSize="14sp"
+
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

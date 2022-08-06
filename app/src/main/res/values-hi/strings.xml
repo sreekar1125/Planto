@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">प्लांटो</string>
+
+    <string name="planto_welcomes">प्लांटो ने स्वागत किया</string>
+    <string name="enter_password">पासवर्ड</string>
+    <string name="password">पासवर्ड</string>
+    <string name="name">नाम</string>
+    <string name="enter_name">नाम दर्ज</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="email">ईमेल</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="sign_up">साइन अप</string>
+    <string name="enter_email">ईमेल</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="Sign_up">साइन अप</string>
+    <string name="todo">TODO</string>
+    <string name="sign_in">साइन इन</string>
+    <string name="send_otp">ओटीपी भेजें</string>
+
+    <string name="resend_otp">ओटीपी पुनः भेजें</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="request">निवेदन</string>
+    <string name="requests">अनुरोध</string>
+    <string name="enter_your_registered_email">ईमेल</string>
+    <string name="done">किया हुआ</string>
+    <string name="enter_your_name">नाम</string>
+    <string name="enter_your_email">ईमेल</string>
+    <string name="Enter_password">पासवर्ड</string>
+    <string name="Confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="Enter_OTP">ओटीपी</string>
+    <string name="Enter_name">नाम</string>
+    <string name="Enter_new_password">नया पासवर्ड</string>
+    <string name="Confirm_new_password">नए पासवर्ड की पुष्टि करें</string>
+
+
+    <string name="sign_in_failed">भाग लेना विफल हुआ&#8230;</string>
+    <string name="home">होम</string>
+    <string name="help">मदद</string>
+    <string name="sign_out">सिग्न आउट</string>
+    <string name="user">यूजर :</string>
+    <string name="camera">कैमरा</string>
+    <string name="verified_statuses">सत्यापित क़ानून</string>
+    <string name="update">अपडेट</string>
+    <string name="start_planting">पौधे लगाना शुरू करें</string>
+    <string name="location">स्थान</string>
+    <string name="Plant">पौधा</string>
+    <string name="status">स्थिति</string>
+    <string name="date">दिनांक</string>
+    <string name="plantate">वृक्षारोपण करो</string>
+    <string name="submit">प्रस्तुत</string>
+    <string name="open">खुला</string>
+    <string name="close">बंद करे</string>
+    <string name="payment">भुगतान</string>
+    <string name="verification">सत्यापन</string>
+    <string name="awareness">जागरूकता</string>
+    <string name="settings">समायोजन</string>
+    <string name="rs">\u20B9</string>
+    <string name="show_passbook">पासबुक दिखाएं</string>
+    <string name="passbook">पासबुक</string>
+
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="select_your_gender">अपना लिंग चुनें</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="other">अन्य</string>
+    <string name="user_email">उपयोगकर्ता ईमेल</string>
+    <string name="verified_badge">सत्यापित बैज</string>
+    <string name="gallery">गेलरी</string>
+    <string name="remove_photo">फोटो निकालें</string>
+    <string name="invite">आमंत्रण</string>
+    <string name="app_slogan">ग्रीन पक्ष में शामिल हों</string>
+    <string name="version">संस्करण 1.0</string>
+    <string name="upload">डालना</string>
+    <string name="queries_faqs">सामान्य प्रश्न और अक्सर पूछे जाने वाले प्रश्न</string>
+    <string name="report_plant">मैं एक संयंत्र के बारे में एक समस्या की रिपोर्ट करना चाहता हूं</string>
+    <string name="manage_ac">मेरा प्लान्टो खाता प्रबंधित करें</string>
+    <string name="refer_frnds">प्लेंटो के लिए दोस्तों का जिक्र</string>
+    <string name="general_issues">सामान्य मुद्दे</string>
+    <string name="issue_while_verif">सत्यापन के दौरान मुद्दों का सामना कर रहे Iam</string>
+    <string name="issue_not_mentioned">मेरा मुद्दा ऊपर उल्लेख नहीं किया गया है</string>
+    <string name="wallet">बटुआ</string>
+    <string name="planto_wallet">प्लांटो बटुआ</string>
+    <string name="paytm">पेटीएम</string>
+    <string name="link">संपर्क</string>
+    <string name="gender">लिंग</string>
+    <string name="dob">जन्म की तारीख</string>
+    <string name="accept">स्वीकार</string>
+    <string name="reject">अस्वीकार</string>
+    <string name="redeem_money">अपना पैसा छुड़ाओ</string>
+    <string name="not_enough_money">आपके पास पर्याप्त पैसा नहीं है</string>
+
+
+    <string name="profile">प्रोफाइल</string>
+    <string name="about">बारे</string>
+    <string name="new_email">नई ईमेल</string>
+    <string name="save">सहेजें</string>
+    <string name="trans_money">पैसों का लेन-देन</string>
+    <string name="redeem">एवज</string>
+    <string name="app_language">भाषा</string>
+    <string name="selected_lang">हिंदी</string>
+    <string name="not_now">अभी नहीं</string>
+    <string name="sign_out_dialog_txt">क्या आप प्लांटो ऐप से साइनआउट करना चाहते हैं?</string>
+    <string name="location_need">स्थान सक्षम होना चाहिए</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="please_wait">कृपया प्रतीक्षा करें&#8230;</string>
+    <string name="enter_email_pass">कृपया ईमेल / पासवर्ड दर्ज करें</string>
+
+
+    <string name="map_key" translatable="false">AIzaSyDADZ9q7MLUuTBMfAsBZR-jtRVE19kmmaM</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoicmFqZXNoa2VzaG9qdSIsImEiOiJjazFjejNoZG4wMm81M2dwZGt2OG5hYWpoIn0.EYvQfcWSeKjSXXdlXUyDzw</string>
+
+    <string name="testBannerAdUnitId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="testRewardedAdUnitId">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="testInterstitialAdUnitId">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="BannerAdUnitId">ca-app-pub-4819989435413590/4343775786</string>
+    <string name="InterstitialAdUnitId">ca-app-pub-4819989435413590/5461895265</string>
+    <string name="RewardedAdUnitId">ca-app-pub-4819989435413590/7652944337</string>
+
+    <string name="invalid_email_pass">अमान्य ईमेल / पासवर्ड</string>
+    <string name="verify_email">कृपया अपना ईमेल सत्यापित करें</string>
+    <string name="enter_all_creds">कृपया सभी क्रेडेंशियल्स दर्ज करें</string>
+    <string name="pass_unmatched">पासवर्ड मिलान नहीं हुआ</string>
+    <string name="check4_email_verif">सत्यापन के लिए अपने ईमेल की जाँच करें</string>
+    <string name="reset_link_sent">पासवर्ड ईमेल भेजा गया</string>
+    <string name="exit_toast">बाहर निकलने के लिए बैक बटन पर टैप करें</string>
+
+</resources>
